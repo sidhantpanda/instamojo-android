@@ -45,3 +45,5 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     }
 }
 ```
+### CAUTION!
+This is not the official android SDK from Instamojo. This is just an example for the implementation. If you lose your money because of this, I am not responsible.
