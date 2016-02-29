@@ -1,6 +1,18 @@
 # Instamojo Android SDK
 Instamojo Android SDK
 
+### Setup helper library
+Download the aar file [here](https://github.com/sidhantpanda/instamojo-android/blob/master/instamojo.aar?raw=true).
+Include in your libs folder and add to gradle
+```gradle
+compile(name:'instamojo', ext:'aar')
+```
+
+### Add ION dependency in gradle
+```gradle
+compile 'com.koushikdutta.ion:ion:2.+'
+```
+
 ### Setup keys
 ```java
 Instamojo.setKeys(API_KEY, AUTH_TOKEN);
